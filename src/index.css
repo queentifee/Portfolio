@@ -26,7 +26,7 @@
     font-family: "Bebas Neue", serif;
     /* font-weight: bold; */
     font-style:normal;
-    font-size:3rem;
+    font-size:4rem;
     
   }
 .bebas-neue-logo {
@@ -34,6 +34,7 @@
   font-weight: bold;
   font-style:normal;
   color:aliceblue;
+  font-size:6rem;
   /* font-size:xx-large; */
 }
 .bebas-neue-goals {
@@ -41,7 +42,7 @@
   font-weight: lighter;
   font-style:normal;
   /* color:black; */
-  font-size:xx-large;
+  font-size:2rem;
 }
 
 .bebas-neue-words {

@@ -1,7 +1,9 @@
 import {React, useState} from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {  FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom"
+
 
 const ContactForm = () => {
     const [isLoading, setIsLoading] = useState(false);
@@ -69,27 +71,27 @@ setTimeout(() => {
               </span>
             </h2>
           
-             <h3 className="text-2xl mt-20 font-bold text-gray-300">Follow Us</h3>
-            <p className="text-gray-400 mt-2">
-              Stay connected and inspired! Follow us on our social media platforms 
-              <br/>to keep up with the latest design trends,
-              
-               project updates, 
-               <br/>and behind-the-scenes insights.
+             <h3 className="px-8 text-2xl mt-20 font-bold text-gray-400">Follow Me</h3>
+            <p className=" px-8 text-gray-400 mt-2">
+              Don't be a stranger! Connect with me on LinkendIn. 
+              <br/>You can also check out my Github.
             </p>
 
             {/* Social Media Icons */}
-            <div className="flex  gap-6 mt-4">
-              <a href="#" className="p-3 bg-[rgb(26,26,26)] rounded-full hover:bg-orange-700 transition">
-                <FaFacebookF className="text-white" />
-              </a>
-              <a href="#" className="p-3 bg-[rgb(26,26,26)] rounded-full hover:bg-orange-700 transition">
-                <FaTwitter className="text-white" />
-              </a>
-              <a href="#" className="p-3 bg-[rgb(26,26,26)] rounded-full hover:bg-orange-700 transition">
-                <FaInstagram className="text-white" />
-              </a>
-              <a href="#" className="p-3 bg-[rgb(26,26,26)] rounded-full hover:bg-orange-700 transition">
+            <div className="flex px-8 gap-6 mt-4">
+            <a 
+  href="https://github.com/queentifee" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="bounce-text p-5 bg-[#D8BF] rounded-full hover:bg-purple-400 transition"
+>
+  <FaGithub className="text-white" />
+</a>
+
+              <a href="http://linkedin.com/in/queen-samuell" 
+              target="_blank" 
+  rel="noopener noreferrer"
+              className="bounce-text p-5 bg-[#D8BF] rounded-full hover:bg-purple-400 transition">
                 <FaLinkedinIn className="text-white" />
               </a>
             </div>

@@ -67,7 +67,7 @@ setTimeout(() => {
               Smart Designs, Sharp Results  
               <br />
               <span className="bg-gradient-to-r from-[#D8BFD8] to-purple-500 text-transparent bg-clip-text">
-              Choose Pitchers for Digital <br /> Excellence. <br /> Get In Touch With Us Today!
+              For Captivating Designs, <br /> Get In Touch With Queen_Codes!
               </span>
             </h2>
           
@@ -102,7 +102,7 @@ setTimeout(() => {
  <div className="w-full md:w-[30%] flex flex-col justify-center h-full">
  <div className="bg-gradient-to-b from-purple-300 to-purple-200 m-6 rounded-3xl text-white p-8 shadow-lg w-full h-full">
  <h1 className="text-center text-3xl font-bold  leading-tight mb-6">
-              Let's Connect!
+              Get in Touch!
             </h1>
 
             {/* Formik Form */}

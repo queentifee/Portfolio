@@ -56,8 +56,8 @@ const ViewCV = ({ isModalOpen, onClose }) => {
     
     
       return (
-        <div className="fixed inset-0 bg-[#D1D5DB9C] w-full backdrop-blur-[2px] z-50">
-          <div className="relative bg-white rounded-lg shadow-lg w-full max-w-2xl p-6 max-h-[90vh] overflow-y-auto">
+        <div className="fixed inset-0 bg-[#D1D5DB9C] backdrop-blur-[3px] flex justify-center items-center z-50 p-2">
+          <div className="relative bg-white rounded-lg shadow-lg w-full max-w-2xl p-6 max-h-[95vh] overflow-y-auto">
             <h2 className="text-xl font-bold mb-4">My CV</h2>
     
 

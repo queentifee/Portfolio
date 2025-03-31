@@ -6,9 +6,7 @@ import ViewCV from './ViewCV'
 
       const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // const handleViewCvClick = () => {
-  //   setIsModalOpen(true)
-  // }
+  
 
       return (
         <div className="w-full bg-[#FFFAFA] px-0 lg:px-6 py-10 ">
@@ -60,7 +58,7 @@ About Me</h2>
           </h2>
 
           <p className="text-lg text-gray-500">
-          Hey there! I’m Queen Samuel, a passionate Frontend Developer & UI/UX Enthusiast. I specialize in crafting beautiful, interactive, and user-friendly web experiences.
+          Hey there! I’m Queen Samuel, a passionate Software Developer. I specialize in crafting beautiful, interactive, and user-friendly web experiences.
 
 With a keen eye for design and a love for coding, I blend creativity with technology to bring ideas to life. Whether it's building sleek landing pages, optimizing user interfaces, or enhancing accessibility, I thrive on making the web a more beautiful and functional space.
 

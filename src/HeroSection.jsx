@@ -10,7 +10,7 @@ const HeroSection = () => {
   useEffect(() => {
     const toggleForm = setInterval(() => {
       setShowContact((prev) => !prev);
-    }, 3000); // Toggles every 5 seconds
+    }, 50000); // Toggles every 5 seconds
 
     return () => clearInterval(toggleForm);
   }, []);
@@ -58,7 +58,7 @@ const HeroSection = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
            className="absolute top-0 right-10 h-[70%] w-80 p-4 shadow-lg rounded-lg flex flex-col bg-gradient-to-b from-purple-400 to-purple-200 z-20 hidden sm:block">
-          <h3 className="text-xl font-bold text-gray-900 text-center">Let's Connect!</h3>
+          <h3 className="text-xl font-bold text-gray-900 text-center">Get in Touch!</h3>
           
           <input
             type="text"

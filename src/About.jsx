@@ -32,7 +32,7 @@ About Me</h2>
             {/* <div className="w-full lg:w-[60%]"> */}
             <div className="w-full lg:w-1/2">
 
-            <div className=" overflow-hidden rounded-full shadow-lg group">
+            <div className=" overflow-hidden rounded-4xl shadow-lg group">
                       <img
                         src={one}
                         className="w-screen h-auto object-cover transition-all duration-500 grayscale "
@@ -58,11 +58,12 @@ About Me</h2>
           </h2>
 
           <p className="text-lg text-gray-500">
-          Hey there! I’m Queen Samuel, a passionate Software Developer. I specialize in crafting beautiful, interactive, and user-friendly web experiences.
-
-With a keen eye for design and a love for coding, I blend creativity with technology to bring ideas to life. Whether it's building sleek landing pages, optimizing user interfaces, or enhancing accessibility, I thrive on making the web a more beautiful and functional space.
-
-When I’m not coding, you’ll find me exploring new design trends, sipping on a latte, or binge-watching tech tutorials!
+          Hey there! I’m Queen Samuel, a passionate Full Stack Software Developer. 
+          I specialize in building robust, scalable, and user-friendly web applications from front to back.
+          With a strong foundation in both frontend and backend technologies, 
+          I enjoy crafting seamless user experiences and writing efficient server-side logic.
+          From designing responsive interfaces with React and TailwindCSS to building secure APIs with Node.js and Express, I thrive on bringing complete web solutions to life.
+          When I’m not coding, you’ll find me exploring new tech stacks, contributing to personal projects, or diving into dev tutorials to stay ahead of the curve!
           </p>
           <button
                      className="mt-2 p-4 bg-purple-500 text-white py-2 rounded-full hover:bg-purple-700"

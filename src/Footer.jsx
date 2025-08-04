@@ -2,7 +2,7 @@ const Footer = () => {
     return (
       <footer className="bg-[#D8BFD8] text-black py-6">
        
-<div className="col-span-full flex flex-col items-center  font-md mt-2 text-center">
+<div className="col-span-full flex flex-col items-center  font-md  text-center">
           <p>© {new Date().getFullYear()} Queen_Codes. All rights reserved.</p>
           <br />
           <p>

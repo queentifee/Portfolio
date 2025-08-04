@@ -1,45 +1,7 @@
-// import React from "react";
-// import QueenSamuel from "./assets/QueenSamuel.pdf";
 
-// const ViewCV = ({ isModalOpen, onClose }) => {
-
-//   return (
-//     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-//       <div className="bg-white p-6 rounded-lg max-w-lg w-full shadow-lg">
-//         <h2 className="text-xl font-bold mb-4">My CV</h2>
-
-//         {/* CV Preview */}
-//         <iframe
-//           src={QueenSamuel}
-//           className="w-full h-[500px] border"
-//           title="CV Preview"
-//         ></iframe>
-
-//         {/* Download Button */}
-//         <a
-//           href={QueenSamuel}
-//           download="QueenSamuel_CV.pdf"
-//           className="block mt-3 w-full bg-green-600 text-white py-2 rounded-md text-center hover:bg-green-700"
-//         >
-//           Download CV
-//         </a>
-
-//         {/* Close Button */}
-//         <button
-//           className="mt-2 w-full bg-red-500 text-white py-2 rounded-md hover:bg-red-600"
-//           onClick={onClose}
-//         >
-//           Close
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ViewCV;
 
 import React,  {useEffect} from "react";
-import QueenSamuel from './assets/QueenSamuel.pdf'
+import Queen from './assets/Queen.pdf'
 
 const ViewCV = ({ isModalOpen, onClose }) => {
     useEffect(() => {
@@ -63,7 +25,7 @@ const ViewCV = ({ isModalOpen, onClose }) => {
 
         {/* CV Preview */}
         <iframe
-          src={QueenSamuel}
+          src={Queen}
           className="w-full h-[500px] border"
           title="CV Preview"
         ></iframe>

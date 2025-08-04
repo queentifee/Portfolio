@@ -56,51 +56,13 @@ setTimeout(() => {
 }
 
   return (
-    // <div className="w-full px-0 lg:px-8 py-10 h-full" >
     <div className="container bg-[#FFFAFA] mx-auto px-5 lg:px0 py-5">
-
-<div className="flex flex-wrap  mt-5">
-        
-        <div className="pt-12 w-full lg:w-[60%]">
-          <div className="overflow-hidden rounded-lg min-h-[600px] md:h-[500px] relative">
-            <h2 className="text-4xl font-bold text-gray-400 leading-tight">
-              Smart Designs, Sharp Results  
-              <br />
-              <span className="bg-gradient-to-r from-[#D8BFD8] to-purple-500 text-transparent bg-clip-text">
-              For Captivating Designs, <br /> Get In Touch With Queen_Codes!
-              </span>
-            </h2>
-          
-             <h3 className="px-8 text-2xl mt-20 font-bold text-gray-400">Follow Me</h3>
-            <p className=" px-8 text-gray-400 mt-2">
-              Don't be a stranger! Connect with me on LinkendIn. 
-              <br/>You can also check out my Github.
-            </p>
-
-            {/* Social Media Icons */}
-            <div className="flex px-8 gap-6 mt-4">
-            <a 
-  href="https://github.com/queentifee" 
-  target="_blank" 
-  rel="noopener noreferrer" 
-  className="bounce-text p-5 bg-[#D8BF] rounded-full hover:bg-purple-400 transition"
->
-  <FaGithub className="text-white" />
-</a>
-
-              <a href="http://linkedin.com/in/queen-samuell" 
-              target="_blank" 
-  rel="noopener noreferrer"
-              className="bounce-text p-5 bg-[#D8BF] rounded-full hover:bg-purple-400 transition">
-                <FaLinkedinIn className="text-white" />
-              </a>
-            </div>
-          </div>
-        </div>
+<div className="flex flex-wrap  mt-3">
 
         
- <div className="w-full md:w-[30%] flex flex-col justify-center h-full">
- <div className="bg-gradient-to-b from-purple-300 to-purple-200 m-6 rounded-3xl text-white p-8 shadow-lg w-full h-full">
+       
+ <div className="w-full md:w-[30%] flex flex-col justify-center h-[50%]">
+ <div className="bg-gradient-to-b from-purple-300 to-purple-200 m-6 rounded-3xl text-white p-8 shadow-lg w-full h-[50%]">
  <h1 className="text-center text-3xl font-bold  leading-tight mb-6">
               Get in Touch!
             </h1>
@@ -170,6 +132,45 @@ setTimeout(() => {
             </Formik>
           </div>
         </div>
+
+        <div className="pt-7 w-full lg:w-[60%]">
+          <div className="ml-20 overflow-hidden rounded-lg min-h-[600px] md:h-[500px] relative">
+            <h2 className="text-4xl font-bold text-gray-400 leading-tight">
+              Smart Designs, Sharp Results  
+              <br />
+              <span className="bg-gradient-to-r from-[#D8BFD8] to-purple-500 text-transparent bg-clip-text">
+              For Captivating Designs, <br /> Get In Touch With Queen_Codes!
+              </span>
+            </h2>
+          
+             <h3 className="px-2 text-2xl  font-bold text-gray-400">Follow Me</h3>
+            <p className=" px-2 text-gray-400 mt-2">
+              Don't be a stranger! Connect with me on LinkendIn. 
+              <br/>You can also check out my Github.
+            </p> 
+
+            {/* Social Media Icons */}
+            <div className="flex px-8 gap-6 mt-4">
+            <a 
+  href="https://github.com/queentifee" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="bounce-text p-5 bg-[#D8BF] rounded-full hover:bg-purple-400 transition"
+>
+  <FaGithub className="text-white" />
+</a>
+
+              <a href="http://linkedin.com/in/queen-samuell" 
+              target="_blank" 
+  rel="noopener noreferrer"
+              className="bounce-text p-5 bg-[#D8BF] rounded-full hover:bg-purple-400 transition">
+                <FaLinkedinIn className="text-white" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        
       </div>
     </div>
   );

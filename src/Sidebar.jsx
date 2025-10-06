@@ -10,6 +10,8 @@ const navItems = [
   { label: "About Me", to: "about" },
   { label: "Skills", to: "skills" },
   { label: "Projects", to: "projects" },
+  // { label: "Backend", to: "backend" },
+
   { label: "Contact Me", to: "contact" },
 ];
 

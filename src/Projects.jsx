@@ -2,6 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import pitchers from './assets/pictures/pitchers.png';
 import meal from './assets/pictures/meal.png';
+import ecommerce from './assets/pictures/ecommerce.png'
+import screen from './assets/pictures/Screen.png'
+
+
 
 const projects = [
     { 
@@ -18,6 +22,13 @@ const projects = [
         description: "A meal discovery platform where users can search for meals based on categories, ingredients, cuisine, or even randomly. It provides detailed meal descriptions, recipes, and images to help users find the perfect dish",
         liveLink: "https://go-to-meal.vercel.app/"
     },
+    { 
+        id: 3, 
+        mockup: screen, 
+        name: "Queen's Hub",
+        description: "A sleek and minimalist eCommerce website designed to highlight products with clarity and elegance. It features a clean layout, intuitive navigation, fast-loading pages, and a mobile-first responsive design.",       
+         liveLink: "https://queens-hub.vercel.app"
+    },
 ];
 
 const FlexDisplay = () => {
@@ -26,7 +37,7 @@ const FlexDisplay = () => {
             <div className="container mx-auto px-6 lg:px-10 ">
                 {/* Title */}
                 <h2 className="bebas-neue-goals text-left my-2 text-2xl font-bold text-black">
-                    Projects
+Frontend Projects
                 </h2>
 
                 {/* Line Section */}

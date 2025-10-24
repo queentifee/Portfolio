@@ -62,7 +62,7 @@ Queen Samuel
             to="contact"
             smooth
             duration={700}
-            className="block text-center py-3 px-6 font-semibold bg-gradient-to-r from-purple-500 to-purple-800 text-white rounded-md"
+            className="block text-center py-3 px-6 font-semibold bg-gradient-to-r from-purple-500 to-purple-800 text-white rounded-md cursor-pointer"
           >
             Hire Me
           </ScrollLink>

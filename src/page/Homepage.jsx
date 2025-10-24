@@ -7,7 +7,7 @@ import ContactForm from '../form';
 import FlexDisplay from '../Projects';
 import Footer from '../Footer';
 import Sidebar from '../Sidebar';
-import Flex from '../Backend';
+// import Flex from '../Backend';
 import one from '../assets/pictures/one.jpg'
 function HomePage() {
   return (
@@ -20,7 +20,7 @@ function HomePage() {
       <section id="about"><About /></section>
       <section id="skills"><Skills /></section>
       <section id="projects"><FlexDisplay /></section>
-      <section id="backend"><Flex /></section>
+      {/* <section id="backend"><Flex /></section> */}
       <section id="contact"><ContactForm /></section>
       <Footer/>
       </div>

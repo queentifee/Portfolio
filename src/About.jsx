@@ -58,7 +58,7 @@ About Me</h2>
           </h2>
 
           <p className="text-lg text-gray-500">
-          Hey there! I’m Queen Samuel, a passionate Full Stack Software Developer. 
+          Hey there! I’m Queen Samuel, a passionate Software Developer. 
           I specialize in building robust, scalable, and user-friendly web applications from front to back.
           With a strong foundation in both frontend and backend technologies, 
           I enjoy crafting seamless user experiences and writing efficient server-side logic.

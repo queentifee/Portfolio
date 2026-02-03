@@ -3,7 +3,7 @@ import { SiRedux, SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <section className="py-12 bg-[#FFFAFA] text-white">
+    <section className="py-12 p-4 lg:p-0 bg-[#FFFAFA] text-white">
       <div className="container mx-auto px-6 lg:px-10 ">
 {/* Title */}
 <h2 className="bebas-neue-goals text-left my-2 text-2xl font-bold text-black">
